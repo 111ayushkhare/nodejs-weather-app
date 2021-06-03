@@ -17,6 +17,9 @@ The focus of the project was on backend so the frontend (UI) is quite simple, th
 
 The Mapbox API will take care of all these inputs and provide the latitude and longitude for any form of the above inputs which will be further used by the Weather-Stack API to get the weather info.
 
+## Screenshot
+![ss](https://user-images.githubusercontent.com/46900324/120635613-4cec0800-c48a-11eb-93cb-b7110c53e152.jpg)
+
 ## Node (npm) packages used 
 ```
 * express (version: ^4.17.1)
@@ -36,6 +39,13 @@ weather-app
     |   |- app.js
     |   `- nodemon.json
     |- node_modules
+    |   |- ..
+    |   |- ..
+    |   :  ..
+    |   :  ..
+    |   |- ..
+    |   |- ..
+    |   `- ..
     |- public
     |   |- css
     |   |   `- style.css

@@ -9,8 +9,6 @@ const path = require('path');
 const weatherForacst = require("./network-utils/weather-stack");
 const geocoder = require("./network-utils/geocode");
 
-console.log(__dirname);
-
 // Defining path used by express
 const publicDirPath = path.join(__dirname, '../public');
 const viewsDirPath = path.join(__dirname, '../views/main-views');
