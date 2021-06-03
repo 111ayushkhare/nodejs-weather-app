@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+header {
+    height: 32vh;
+}
+
+.div-h1 {
+    height: 32vh;
+    background-color: #2A3132;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+    color: white;
+    position: absolute;
+    left: 8%;
+    top: 8%;
+}
+
+header a {
+    color: white;
+    margin-right: 16px;
+    text-decoration: none;
+    background-color: #90AFC5;
+    padding: 24px;
+    position: relative;
+    top: -2%;
+    left: 16%;
+    border-radius: 8px;
+}
+
+.portrait {
+    width: 250px;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 16px;
+    border-radius: 8px;
+    margin-left: 64px;
+    margin-top: 64px;
+    position: relative;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #336BA7;
+    color: white;
+    margin-left: 16px;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.div-response {
+    margin-left: 64px;
+}
+
+h3 {
+    margin-top: 64px;
+    margin-left: 64px;
+}
+
+footer {
+    color: white;
+    border-top: 1px solid #eeeeee;
+    padding: 16px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #763626;
+}

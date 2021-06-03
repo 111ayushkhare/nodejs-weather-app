@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="icon" href="/images/weather.png">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+    <div class="main-content">
+        {{> header }}
+
+        <form>
+            <input placeholder="Location">
+            <button>Fetch Weather</button>
+        </form>
+
+        <div class="div-response">
+            <h3 id="location-info"></h3>
+
+            <p id="temperature-info"></p>
+            <p id="weather-info"></p>
+            <p id="wind-info"></p>
+            <p id="precip"></p>
+            <p id="humidity"></p>
+        </div>
+
+        {{> footer }}
+
+        <script src="/javascript/client-form.js"></script>
+    </div>
+</body>
+</html>
